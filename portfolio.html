@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitesh R - Cyberpunk Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="script1.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <div>Hitesh R</div>
+            <div class="contact-info">
+                <a href="mailto:HiteshCoursera@gmail.com"><i class="fas fa-envelope"></i> HiteshCoursera@gmail.com</a>
+                <a href="tel:+994041337404"><i class="fas fa-phone"></i> +99 404 1337 404</a>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="glitch-wrapper">
+                <h1>Hitesh R</h1>
+            </div>
+            <p class="cyber-text">Full Stack Developer & Digital Craftsman</p>
+            <button class="cta-button" onclick="document.querySelector('#about').scrollIntoView({behavior: 'smooth'})">
+                <span class="button-text">Initialize</span>
+                <span class="button-glitch"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="image-frame">
+                    <img src="meme.jpg" alt="Hitesh R">
+                </div>
+            </div>
+            <div class="about-text">
+                <h1>Greetings, I'm Hitesh R <i class="fas fa-hand-wave"></i></h1>
+                <p class="cyber-text">Code-runner from the grid. I architect full-stack firepower, brew APIs in midnight oil, and wire pixels like circuitry.
+                My arena? The web. My tools? HTML5, JS, React, Node & a sprinkle of dark magic.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="services">
+        <h2 class="section-title">Skills</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>4 Years of DOMination</p>
+                <div class="skill-level">
+                    <div class="skill-bar" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>5 Years of chaos scripting</p>
+                <div class="skill-level">
+                    <div class="skill-bar" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>Automation Overlord</p>
+                <div class="skill-level">
+                    <div class="skill-bar" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-react"></i>
+                <h3>React.js</h3>
+                <p>Component Hacker</p>
+                <div class="skill-level">
+                    <div class="skill-bar" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-nav prev">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="AI Chat Application">
+                </div>
+                <div class="project-content">
+                    <h3>AI Chat Application</h3>
+                    <p>A real-time chat application with AI integration, built using React and Node.js. Features include natural language processing, sentiment analysis, and automated responses.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>OpenAI API</span>
+                        <span>Socket.io</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="button-glitch">View Demo</a>
+                        <a href="#" class="button-glitch">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="E-Commerce Platform">
+                </div>
+                <div class="project-content">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured e-commerce platform with real-time inventory management, secure payment processing, and advanced analytics dashboard.</p>
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>Django</span>
+                        <span>PostgreSQL</span>
+                        <span>Stripe API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="button-glitch">View Demo</a>
+                        <a href="#" class="button-glitch">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Task Management System">
+                </div>
+                <div class="project-content">
+                    <h3>Task Management System</h3>
+                    <p>A collaborative task management system with real-time updates, team collaboration features, and automated task scheduling.</p>
+                    <div class="project-tech">
+                        <span>Angular</span>
+                        <span>Firebase</span>
+                        <span>Material UI</span>
+                        <span>RxJS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="button-glitch">View Demo</a>
+                        <a href="#" class="button-glitch">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Data Visualization Dashboard">
+                </div>
+                <div class="project-content">
+                    <h3>Data Visualization Dashboard</h3>
+                    <p>An interactive data visualization dashboard for analyzing and presenting complex datasets with real-time updates and custom reporting.</p>
+                    <div class="project-tech">
+                        <span>D3.js</span>
+                        <span>React</span>
+                        <span>Python</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="button-glitch">View Demo</a>
+                        <a href="#" class="button-glitch">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-nav next">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonials-feedback-container">
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Hitesh R's code is clean, efficient, and well-documented. A pleasure to work with!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Sarah Johnson</h4>
+                        <p>Senior Developer</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Exceptional problem-solving skills and attention to detail. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Michael Chen</h4>
+                        <p>Project Manager</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Innovative solutions and great communication. A valuable team member!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Emily Rodriguez</h4>
+                        <p>Tech Lead</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feedback-box">
+                <h3>Share Your Feedback</h3>
+                <form id="feedbackForm" class="feedback-form">
+                    <div class="form-group">
+                        <input type="text" id="feedbackName" name="name" placeholder="Your Name" required>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="feedbackEmail" name="email" placeholder="Your Email" required>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="feedbackMessage" name="message" placeholder="Your Feedback" required></textarea>
+                        <div class="form-line"></div>
+                    </div>
+                    <button type="submit">
+                        <span class="button-text">Submit Feedback</span>
+                        <div class="button-glitch"></div>
+                    </button>
+                </form>
+                <div id="feedbackSuccess" class="success-message" style="display: none;">
+                    Thank you for your feedback!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <div class="form-line"></div>
+            </div>
+            <button type="submit">
+                <span class="button-text">Send Message</span>
+                <div class="button-glitch"></div>
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Hitesh R. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Home Button -->
+    <button id="back-to-home" class="back-to-home" onclick="document.querySelector('#home').scrollIntoView({behavior: 'smooth'})">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+    </button>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html> 
